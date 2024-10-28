@@ -1,0 +1,135 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 100%, 97%, 0), rgba(14, 13, 13, 0.432)), url('hq720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.btn {
+    padding: 15px 30px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    border-radius: 70px;
+    color: rgba(2, 23, 65, 0.644);
+    border-color: beige;
+    background-color: rgba(2, 23, 37, 0.877);
+}
+.btn :hover{
+    background-color: rgb(2, 32, 32);
+    color: black;
+    box-shadow: inset;
+
+}
+.btn-brand{
+    padding-left: 15px 30px;
+    background-color: rgb(108, 190, 238);
+    border: 0cap solid rgb(0, 7, 22);
+}
+section{
+    padding: 100px 0;
+}
+#about h3{
+    font-size: 60px;
+    font-weight: 900px;
+    color: rgb(2, 113, 204);
+    font-size: 50px;
+    font-style: oblique;
+}
+#services{
+    background-color: antiquewhite;
+}
+#card-image-tp{
+    width: 40%;
+}
+.card{
+    transition: all 0.4s ease;
+}
+.card:hover{
+    background-color: rgb(134, 127, 233);
+}
+.card:hover .card-text, .card-hover .card-title{
+    color: rgb(36, 117, 189);
+}
+#Service .btn-brand:hover{
+    background-color: rgb(28, 194, 166);
+    color: rgb(111, 90, 235);
+}
+.testimonials img{
+    width: 75px;
+    border-radius: 50%;
+}
+.testimonials{
+    border: 2px solid rgb(7, 42, 107);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;    
+}
+.testimonials a {
+    color: aquamarine;
+}
+#faq {
+    background-color: antiquewhite;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid coral;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(7, 6, 6);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;    
+}
+.accordion-body{
+    border-left: 3px solid cornflowerblue;
+    padding: 10px, 15px;
+    margin-left: 0;
+    background-color: rgb(19, 19, 17);
+}
+.accordion-button:not(.collapsed){
+    background-color: color(srgb red green blue);
+    color: aquamarine;
+}
+.accordion-button:hover{
+    background-color: aliceblue;
+    color: #726464;
+}
+#cta {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 100%, 97%, 0), rgba(235, 196, 157, 0.432)), url('images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer {
+    background-color: #cc0d9c;
+    padding: 50px;
+}
+@media screen and(max-width: 767px){
+    #about img {
+        height: 300px;
+        width: 300px;
+    }
+    #services .card{
+        margin-top: 20px;
+
+    }
+    section{
+        padding: 60px 20px;
+}
+
+    
+}
+
+
